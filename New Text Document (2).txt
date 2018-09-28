@@ -1,0 +1,81 @@
+﻿Bài 1:
+
+ 
+
+Begin 
+
+Input Diem_v_ly;
+
+Input Diem_S_hoc;
+
+Input Diem_H_hoc;
+
+While  (Diem_v_ly<0) or (Diem_S_hoc<0) or (Diem_H_hoc<0) or (Diem_v_ly>10) or (Diem_S_hoc>10) or (Diem_H_hoc>100) 
+
+Display("Vui lòng nhập số từ 1 đến 10");
+
+<Input: nhập lại Diem_v_ly>
+
+<Input: nhập lại Diem_S_hoc>
+
+<Input: nhập lại Diem_H_hoc>
+
+while.end
+
+diem_tong= Diem_H_hoc + Diem_S_hoc+ Diem_v_ly;
+
+Diem_tb = diem_tong/3;
+
+Display("Điểm Tông là: ", diem_tong);
+
+Display("Điểm TB  là: ", Diem_tb);
+
+end.
+
+link flowchart:https://drive.google.com/open?id=1c1pCBuvKkB3ShCByHB1eqMvGZtiRf80a
+
+Bài 2
+
+Begin
+
+Input Do_C;
+
+While  Do_C<-273
+
+Display("Theo nguyên lý III nhiệt động lực học Nhiệt độ không bé hơn -273 độ C");
+
+<Input: nhập lại Do_C>
+
+while.end
+
+F= (C*9/5)+32;
+
+Display(F);
+
+End.
+
+link flowchart:https://drive.google.com/open?id=1I1o49BJGtuK_5v53lfhAymsQaoj8IAAx
+
+Bài 3 ,4
+
+Begin
+
+Input r;
+
+while r<0 
+
+display("Vui lòng nhập Bán kính là số không âm")
+
+<Input: nhập lại r>
+
+while.end
+
+chu_vi=2*r*Pi;
+
+Dien_tich=r^2*Pi;
+
+Display(chu_vi,Dien_tich);
+
+End.
+
+link flowchart:https://drive.google.com/open?id=1qqZAmvdYXGzmr4SF0BXzQMfWrDpf5NA1
